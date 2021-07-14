@@ -1,0 +1,11 @@
+I only include a (small) portion of data used
+I do not include data like MERRA-2 that can be readily downloaded
+I include data like he deltamat to (e.g.,) generate Q; biome map.
+
+biome.mat is 46 by 72. 
+landmap.mat 0 for ocean, 1 for land, 2 for ice.
+area45.mat is 46 by 72 in km^2.
+
+
+ocean fluxes data are montly from Jan-2015 to Dec-2017, from EDDC, in unit of umol/m2/s.
+

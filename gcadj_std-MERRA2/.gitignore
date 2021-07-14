@@ -1,0 +1,27 @@
+# Ignore Mac OSX files
+*.DS_Store
+
+# Ignore temporary files
+*~
+*.swp
+*.mod
+*.o
+*.chk.*
+
+# Ignore run time files
+
+BACKWD_met
+FWD_met
+Ox.mass.initial
+Ox.mass.final	
+cfn.*
+ctm.*
+gctm.*
+geos
+diaginfo.dat
+iterate.dat
+log
+smv2.log
+tracerinfo.dat
+
+
