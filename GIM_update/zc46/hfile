@@ -1,0 +1,26 @@
+netcdf zichong {
+dimensions:
+	Lon-000 = 72 ;
+	Lat-000 = 46 ;
+variables:
+	float LON(Lon-000) ;
+		LON:long_name = "Longitude" ;
+		LON:unit = "Degrees" ;
+	float LAT(Lat-000) ;
+		LAT:long_name = "Latitude" ;
+		LAT:unit = "Degrees" ;
+	float CO2SRCE(Lat-000, Lon-000) ;
+		CO2SRCE:long_name = "CO2 balanced biosphere" ;
+		CO2SRCE:unit = "molec/cm2/s" ;
+
+// global attributes:
+		:Title = "NetCDF file created by BPCH2NC (GAMAP v2-12+)" ;
+		:Model = "GEOS1" ;
+		:Delta_Lon = 5.f ;
+		:Delta_Lat = 4.f ;
+		:NLayers = 1 ;
+		:Start_Date = 20001231 ;
+		:Start_Time = 0 ;
+		:End_Date = 20010101 ;
+		:End_Time = 0 ;
+}
